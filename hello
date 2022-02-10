@@ -23,8 +23,7 @@ install: build
 build:
 	swift build $(SWIFT_BUILD_FLAGS)
 
-uninstall:
-	rm -f $(INSTALL_PATH)
+
 	rm -rf $(SHARE_PATH)
 
 format_code:
